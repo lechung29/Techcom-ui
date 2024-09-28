@@ -1,0 +1,17 @@
+.tc-header-drawer {
+  overflow: hidden;
+  background-color: #000;
+  border-bottom: 1px solid #ccc;
+  height: 0;
+  transition: height 0.4s ease-in-out;
+}
+.tc-header-drawer.tc-header-drawer-open {
+  height: 400px;
+}
+
+.tc-header-button-arrow-icon {
+  transition: transform 0.4s ease-in-out;
+}
+.tc-header-button-arrow-icon.tc-header-button-arrow-icon-open {
+  transform: rotate(180deg);
+}/*# sourceMappingURL=index.css.map */

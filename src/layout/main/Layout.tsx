@@ -1,11 +1,12 @@
 import { Outlet } from "react-router-dom";
 import { Header } from "../header"
+import "./index.scss"
 
-export const Layout = () => {
+export const Layout: React.FunctionComponent = () => {
 
-    return <div className="w-full min-h-dvh flex flex-col">
+    return <div className="tc-layout-section">
         <Header />
-        <div className="flex-1">
+        <div className="tc-layout-main-section">
             <Outlet />
         </div>
     </div>

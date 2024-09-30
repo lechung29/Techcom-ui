@@ -1,9 +1,0 @@
-.tc-common-menulist-item {
-  cursor: pointer;
-}
-.tc-common-menulist-item[aria-checked=true] {
-  background-color: #f5f5f5;
-}
-.tc-common-menulist-item[aria-checked=true] > span {
-  display: none;
-}/*# sourceMappingURL=index.css.map */
